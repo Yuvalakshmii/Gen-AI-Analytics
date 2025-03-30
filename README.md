@@ -12,7 +12,6 @@
 ## 🛠️ Tech Stack
 - **Frontend**: React (Next.js) + Tailwind CSS
 - **Backend**: Node.js (if applicable) / Serverless API
-- **Database**: Firebase / MongoDB / PostgreSQL (Specify as applicable)
 - **Hosting**: Vercel
 
 ## 📥 Installation & Setup
