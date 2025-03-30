@@ -33,6 +33,17 @@ This project uses **Redux** for efficient **global state management**. Redux hel
 - **Centralizing AI model analytics data** for easy access across components.
 - **Handling API calls** efficiently using middleware like **Redux Thunk** or **Redux Saga**.
 - **Optimizing performance** by updating only necessary components and avoiding unnecessary re-renders.
+
+## 📊 Dataset & Data Handling
+Currently, the application utilizes **mock data** for generating AI analytics. The dataset is simulated through the `generateMockResults` function, which provides predefined responses based on user queries. This approach allows for development and testing without reliance on an external database or API.
+
+- **Mock Data Simulation**: The `processQuery` function in Redux Thunk **mimics an API request** using a timeout delay (`setTimeout(resolve, 1500)`). Instead of fetching real data, it retrieves results from `mock-data.ts`.
+  
+- **Future Enhancements**: To integrate real-time AI analytics, the mock data should be replaced with:
+  - **Actual API calls** to external AI services (e.g., OpenAI, Firebase, MongoDB).
+  - **A dedicated database** for storing AI-generated insights and query history.
+  - **Dynamic real-time data updates** to enhance user experience and accuracy.
+
   
 ## 🚀 Deployment
 - **Automatic Deployment**: Pushing to `main` automatically deploys the latest changes on [Vercel]([https://gen-ai-analytics-yuva.vercel.app/]).
