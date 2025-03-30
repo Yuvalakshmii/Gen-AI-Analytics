@@ -28,7 +28,12 @@
    ```sh
    npm run dev  # or yarn dev
    ```
-
+## 🔄 State Management with Redux
+This project uses **Redux** for efficient **global state management**. Redux helps in:
+- **Centralizing AI model analytics data** for easy access across components.
+- **Handling API calls** efficiently using middleware like **Redux Thunk** or **Redux Saga**.
+- **Optimizing performance** by updating only necessary components and avoiding unnecessary re-renders.
+  
 ## 🚀 Deployment
 - **Automatic Deployment**: Pushing to `main` automatically deploys the latest changes on [Vercel]([https://gen-ai-analytics-yuva.vercel.app/]).
 - **Manual Deployment**: Run:
