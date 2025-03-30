@@ -31,14 +31,14 @@
    ```
 
 ## 🚀 Deployment
-- **Automatic Deployment**: Pushing to `main` automatically deploys the latest changes on [Vercel](https://vercel.com/).
+- **Automatic Deployment**: Pushing to `main` automatically deploys the latest changes on [Vercel]([https://vercel.com/](https://gen-ai-analytics-yuva.vercel.app/)).
 - **Manual Deployment**: Run:
   ```sh
   vercel deploy
   ```
 
 ## 👥 Contributors
-- **Yuvalakshmii** – [GitHub](https://github.com/Yuvalakshmii)
+- **Yuvalakshmii**
 
 ## 📜 License
 This project is licensed under the MIT License.
