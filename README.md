@@ -30,7 +30,7 @@
    ```
 
 ## 🚀 Deployment
-- **Automatic Deployment**: Pushing to `main` automatically deploys the latest changes on [Vercel]([https://vercel.com/](https://gen-ai-analytics-yuva.vercel.app/)).
+- **Automatic Deployment**: Pushing to `main` automatically deploys the latest changes on [Vercel]([https://gen-ai-analytics-yuva.vercel.app/]).
 - **Manual Deployment**: Run:
   ```sh
   vercel deploy
