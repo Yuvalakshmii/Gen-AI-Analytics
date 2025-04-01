@@ -11,7 +11,7 @@
 
 ## 🛠️ Tech Stack
 - **Frontend**: React (Next.js) + Tailwind CSS
-- **Backend**: Node.js (if applicable) / Serverless API
+- **Backend**: Serverless API
 - **Hosting**: Vercel
 
 ## 📥 Installation & Setup
